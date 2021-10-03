@@ -1,0 +1,224 @@
+index.html
+HTML
+
+sty.css
+Style Sheet
+Class comments
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(148, 43, 218);
+    overflow: hidden;
+    padding-left: 35rem;
+}
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+.heading span{
+    color: rgb(221, 221, 130);
+}
+
+.title{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+.title span{
+    color: rgb(221, 221, 130);
+}
+
+.head{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.head span{
+    color: rgb(221, 221, 130);
+}
+.pro{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.pro span{
+    color: rgb(221, 221, 130);
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background:#312f2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .5rem solid;
+}
+
+header .user .nm{
+    font-size:2rem;
+    color: #fff;
+}
+
+header .user .jb{
+    font-size:1.9rem;
+    color: #fff;
+}
+
+header .nv{
+    width: 100%;
+}
+header .nv ul{
+    list-style: none;
+    padding: 1rem ;
+}
+
+header .nv ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: rgb(24, 24, 24);
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    text-decoration: none;  
+}
+header .nv ul li a:hover{
+    background-color:rgb(94, 211, 231);
+}
+
+.Details .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Details .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Details .Row .det h3{
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+.Details .Row .det h3 span{
+    color: rgb(235, 235, 86);
+    padding: 0. 5rem;
+}
+table,th,td{
+    border: 1px solid yellow;
+    border-collapse: collapse;
+}
+td{
+    color: white;
+    padding: 1rem;
+}
+th{
+    color: white;
+    padding: 1rem;
+}
+table{
+    text-align: center;
+    margin: 0 4rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid white;
+    color: #fff;
+    /* #fff4 */
+}
+#lis li{
+    margin: 0 9rem;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: .5rem 1rem;
+}
+.Project .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Project .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Project .Row .det h3{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+.Project .Row .det h3 span{
+    color: rgb(235, 235, 86);
+    padding: 0. 5rem;
+}
+/* sty.css
+Displaying sty.css. */
+.icon{
+    
+    background-color:#eed3d3;
+    display: flexbox;
+    justify-content: space-evenly;
+    align-content: space-between;
+    box-sizing: border-box;
+    font-size: 1.4em;
+    margin-top: 2em;
+    padding:2 4em;
+    
+    
+}
+.mylink{
+    color: rgb(101, 189, 240);
+    font-size: larger;
+}
